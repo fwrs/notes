@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "daebf8ddf974164d1b9a050c8231e263f3106b09",
+          "version": "6.1.0"
+        }
+      },
+      {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa",
+        "state": {
+          "branch": null,
+          "revision": "75cfd26033574d75aa81ceca2809b8ef46ecaa18",
+          "version": "10.5.2"
+        }
+      },
+      {
+        "package": "RealmDatabase",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "b93ab22d2ff79b105f2a83450e5630d830166cfc",
+          "version": "10.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

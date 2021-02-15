@@ -1,0 +1,72 @@
+/* 
+  Localizable.strings
+  Notes
+
+  Created by Ilya Kulinkovich on 2/12/21.
+  
+*/
+
+// MARK: - Shared
+
+// MARK: - Navigation
+
+// MARK: - Home
+
+"home.titleDashboard" = "Your notes";
+"home.titleSearchResults" = "Search results";
+
+"home.snackbarNoteMovedToArchive" = "The note was moved to archive";
+
+"home.sectionPinned" = "Pinned";
+"home.sectionToday" = "Created today";
+"home.sectionYesterday" = "Created yesterday";
+"home.sectionAll" = "All";
+
+"home.placeholderEmptyDashboard" = "No notes yet";
+"home.placeholderEmptyDashboardHint" = "Create one using plus button";
+"home.placeholderEmptySearchResults" = "Nothing found";
+"home.placeholderEmptySearchResultsHint" = "Try using different search terms";
+
+"home.notePreview.protected" = "Protected note";
+"home.notePreview.emptyNote" = "Empty note";
+"home.notePreview.untitledNote" = "Untitled";
+
+// MARK: - Compose note
+
+"composeNote.title" = "Compose note";
+"composeNote.titlePlaceholder" = "Title";
+"composeNote.contentPlaceholder" = "Content";
+"composeNote.buttonAttach" = "Attach";
+"composeNote.buttonSave" = "Save";
+
+// MARK: - Archive
+
+"archive.title" = "Archive";
+"archive.hint" = "Archived notes are deleted after a month since last edit";
+"archive.buttonRemoveAll" = "Remove all notes";
+
+"archive.placeholderNoNotes" = "No archived notes";
+"archive.placeholderNoNotesHint" = "Notes that you archive will appear here";
+
+"archive.removeAllAlertTitle" = "Are you sure?";
+"archive.removeAllAlertMessage" = "Removing all notes is irreversible.";
+"archive.removeAllAlertConfirm" = "Yes, remove";
+
+"archive.snackbarNoteRemovedFromArchive" = "The note was removed from archive";
+"archive.snackbarNoteWasDeleted" = "The note was deleted";
+"archive.snackbarAllNotesDeleted" = "All notes were deleted";
+
+// MARK: - Note
+
+"note.title" = "Note";
+"note.titlePlaceholder" = "Title";
+"note.contentPlaceholder" = "Content";
+"note.ellipsis" = "...";
+
+"note.colorPicker.title" = "Choose note color";
+"note.colorPicker.buttonRemoveColor" = "Remove color";
+
+"note.addAttachment.title" = "Add attachment";
+"note.addAttachment.optionClipboardURL" = "URL from clipboard";
+"note.addAttachment.optionGallery" = "Add from gallery";
+"note.addAttachment.optionCamera" = "Take photo using camera";
