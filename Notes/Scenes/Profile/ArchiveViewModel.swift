@@ -58,6 +58,8 @@ struct ArchiveViewModel {
     func transform(_ input: Input, in cancellables: inout [AnyCancellable]) -> Output {
         let output = Output()
         
+        output.notes = storageService.getNotes([.all], archived: true)
+        
         input.didAppear.sink {
             withAnimation(.easeIn) {
                 output.notes = storageService.getNotes([.all], archived: true)
