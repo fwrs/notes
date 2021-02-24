@@ -157,13 +157,13 @@
 			path = ComposeNote;
 			sourceTree = "<group>";
 		};
-		B866597E25D9993E00DD17AA /* Profile */ = {
+		B866597E25D9993E00DD17AA /* Archive */ = {
 			isa = PBXGroup;
 			children = (
 				B866598325D9996000DD17AA /* ArchiveViewModel.swift */,
 				B866597F25D9994C00DD17AA /* ArchiveView.swift */,
 			);
-			path = Profile;
+			path = Archive;
 			sourceTree = "<group>";
 		};
 		B8B685DB25D6ECE90031EA0F /* Assets */ = {
@@ -191,7 +191,7 @@
 				B8B685E925D6EDCC0031EA0F /* Navigation */,
 				B862B33925D709EE00881EE3 /* Home */,
 				B862B34F25D7363D00881EE3 /* ComposeNote */,
-				B866597E25D9993E00DD17AA /* Profile */,
+				B866597E25D9993E00DD17AA /* Archive */,
 				B831397825D8055500FD1CA3 /* Note */,
 			);
 			path = Scenes;
