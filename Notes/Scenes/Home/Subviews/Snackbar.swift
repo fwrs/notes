@@ -22,11 +22,9 @@ struct Snackbar: View {
         presenting: Presenting,
         text: Text
     ) where Presenting: View {
-        
         _isShowing = isShowing
         self.presenting = AnyView(presenting)
         self.text = text
-        
     }
     
     var body: some View {
