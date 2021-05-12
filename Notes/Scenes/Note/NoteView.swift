@@ -104,6 +104,8 @@ struct NoteView: View {
                 Spacer().frame(height: 102)
             }.onAppear {
                 didAppear.send()
+            }.onTapGesture {
+                UIApplication.shared.endEditing()
             }
             VStack {
                 Spacer()

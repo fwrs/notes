@@ -85,6 +85,7 @@ struct ComposeNoteView: View {
                     
                     VStack {
                         Button {
+                            UIApplication.shared.endEditing()
                             output.showAttachmentPopup = true
                         } label: {
                             HStack(spacing: 5) {
@@ -105,6 +106,7 @@ struct ComposeNoteView: View {
                         Spacer().frame(height: 6)
                         
                         Button {
+                            UIApplication.shared.endEditing()
                             saveButtonPushed.send()
                         } label: {
                             HStack(spacing: 5) {
@@ -123,7 +125,9 @@ struct ComposeNoteView: View {
                         }.frame(minWidth: 0, maxWidth: .infinity)
                     }.padding(.horizontal, 24)
                     Spacer().frame(height: 56)
-                }.padding(.vertical, 24)
+                }.padding(.vertical, 24).onTapGesture {
+                    UIApplication.shared.endEditing()
+                }
             }.clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous)).onReceive(output.hideSheet) { _ in
                 hideSheet.send()
             }
